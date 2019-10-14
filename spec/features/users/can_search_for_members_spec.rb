@@ -1,8 +1,4 @@
-# And for each of the members I should see:
-# - The name of the member
-# - The members role (if it exists)
-# - The house the member belongs to
-# - The Patronus of the member (if it exists)
+require 'rails_helper'
 
 describe "User Search For Members" do
   it "When I visit '/' And I Select 'Griffindor' from the select field
