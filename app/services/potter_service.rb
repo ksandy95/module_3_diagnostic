@@ -1,7 +1,7 @@
 class PotterService
 
-  def get_house_data(url, params)
-    response = conn.get(url, params)
+  def get_house_data(url)
+    response = conn.get(url)
     parsed_data = JSON.parse(response.body, symbolize_names: true)
   end
 
